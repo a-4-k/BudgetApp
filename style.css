@@ -39,6 +39,7 @@ body {
     position: relative;
 }
 
+
 .budget {
     position: absolute;
     width:300px;
@@ -127,7 +128,7 @@ body {
 }
 
 .add__type {
-    width: 55px;
+    width:55px;
     border: 1px solid #e7e7e7;
     height: 44px;
     font-size: 18px;
@@ -283,9 +284,15 @@ h2 {
 .unpaid:hover .item__description { font-weight: 900; }
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:530px){
 
   .add__description { width:100%;}
   .add__value { width: 200px;}
+  .bottom-box{
+     margin-bottom:10px;
+  }
+  .add__btn {
+    margin-bottom:0;
+  }
 
 }
